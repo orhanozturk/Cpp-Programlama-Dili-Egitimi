@@ -46,7 +46,7 @@
 - auto geri dönüş değeri türü _(auto return type)_ <br>
 - decltype auto tür çıkarımı _(decltype auto)_ <br>
 
-## kapsamlandırılmış enum türleri _(scoped enums)_
+## Kapsamlandırılmış enum türleri _(scoped enums)_
 - geleneksel enum türleri _(conventional enum types)_ <br>
 - baz tür seçimi _(underlying type)_ <br>
 - tür dönüşümleri _(type conversions)_ <br>
