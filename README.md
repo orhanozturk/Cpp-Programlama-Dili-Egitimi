@@ -1,6 +1,9 @@
 # C++ Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
+### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. <br>
 
-## C++ Dilinin Genel Tanıtımı
+	Ortalama 2 dersten sonra Oyun Quizleri yapılacaktır.
+
+## 📌C++ Dilinin Genel Tanıtımı
 - C++ dilinin tarihçesi<br>
 - C++ dili ve programlama paradigmaları<br>
 - C++ dili standartları<br>
@@ -11,14 +14,14 @@
 - C++20<br>
 - eski C++ ve modern C++<br>
 
-## C Dili ve C++ İçindeki C Dili _(C in C++)_
+## 📌C Dili ve C++ İçindeki C Dili _(C in C++)_
 - C dilinden C++ diline geçiş<br>
 - işlev bildirimleri ve tanımlamalarına ilişkin farklılıklar<br>
 - türlere ve tür dönüşümlerine ilişkin farklılıklar<br>
 - C’de geçerli C++’da geçersiz durumlar<br>
 - C99 ve C++<br>
 
-## Temel Kavramlar _(Basic Concepts)_
+## 📌Temel Kavramlar _(Basic Concepts)_
 - tamamlanmış ve eksik türler _(complete & incomplete types)_<br>
 - tek tanımlama kuralı _(one definition rule)_<br>
 - ifadelerin değer kategorileri _(value categories)_<br>
@@ -29,7 +32,7 @@
 - erişim kontrolü _(access control)_ <br>
 - çift anlamlılık hatası _(ambiguity)_ <br>
 
-## İlk Değer Verme _(Initialization)_
+## 📌İlk Değer Verme _(Initialization)_
 - eş biçimli ilk değer verme _(uniform initialization)_<br>
 - daraltıcı dönüşümler _(narrowing conversions)_ <br>
 - most vexing parse <br>
@@ -39,21 +42,21 @@
 - varsayılan ilk değer verme _(default initialization)_ <br>
 - bileşiklere ilk değer verme _(aggregate initialization)_ <br>
 
-## Tür Çıkarımı _(Type Deduction)_
+## 📌Tür Çıkarımı _(Type Deduction)_
 - auto belirteci ile tür çıkarımı _(auto type deduction)_ <br>
 - decltype belirteci ile tür çıkarımı _(decltype type deduction)_ <br>
 - sonradan gelen geri dönüş türü _(trailing  return type)_ <br>
 - auto geri dönüş değeri türü _(auto return type)_ <br>
 - decltype auto tür çıkarımı _(decltype auto)_ <br>
 
-## Kapsamlandırılmış enum türleri _(scoped enums)_
+## 📌Kapsamlandırılmış enum türleri _(scoped enums)_
 - geleneksel enum türleri _(conventional enum types)_ <br>
 - baz tür seçimi _(underlying type)_ <br>
 - tür dönüşümleri _(type conversions)_ <br>
 - enum türleri kapsam _(enum classes & scope)_ <br>
 - using enum declarations (C++20) <br>
 
-## Sabit İfadeleri _(Constant Expressions)_
+## 📌Sabit İfadeleri _(Constant Expressions)_
 - const anahtar sözcüğü ve const semantiği _(const keyword & const semantics)_<br>
 - const nesneler _(const objects)_<br>
 - constexpr anahtar sözcüğü _(constexpr keyword)_<br>
@@ -61,9 +64,9 @@
 - consteval işlevler - C++20 _(consteval functions - C++20)_<br>
 - constinit anahtar sözcüğü - C++20
 
-## İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
+## 📌İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
 
-## Referans Semantiği (Reference Semantics)
+## 📌Referans Semantiği (Reference Semantics)
 - sol taraf referansları _(L value references)_<br>
 - sağ taraf referansları _(R value references)_<br>
 - referanslar ve const semantiği _(references & const semantics)_<br>
@@ -72,24 +75,24 @@
 - referans döndüren işlevler<br>
 - referanslar ve _life extension_ <br>
 
-## İşlev Yüklemesi _(Function Overloading)_
+## 📌İşlev Yüklemesi _(Function Overloading)_
 - genel kurallar <br>
 - yüklenmiş işlev çözümlenmesi _(function overload resolution)_<br>
 - const yüklemesi _(const overloading)_<br>
 - extern "C" bildirimi _(extern C declarations)_<br>
 - işlev yüklemesinde dikkat edilmesi gereken durumlar<br>
 
-## Tür Dönüştürme Operatörleri _(Type-cast Operators)_
+## 📌Tür Dönüştürme Operatörleri _(Type-cast Operators)_
 - static_cast<> operatörü<br>
 - const_cast<> operatörü<br>
 - reinterpret_cast<> operatörü<br>
 - dynamic_cast<> operatörü _(kalıtım başlığı altında)_<br>
 
-## inline işlevler ve inline değişkenler
+## 📌inline işlevler ve inline değişkenler
 - inline işlevler _(inline functions)_ <br>
 - inline değişkenler (C++17) _(inline variables)_ <br>
 
-## Sınıflara giriş _(Introduction to Classes)_
+## 📌Sınıflara giriş _(Introduction to Classes)_
 - sınıf kapsamı _(class scope)_ <br>
 - sınıflar ve isim arama _(name lookup)_<br>
 - erişim kontrolü _(access control)_ ve veri gizleme _(data hiding)_<br>
@@ -146,7 +149,7 @@
 &emsp;&emsp;- NRVO (names return value optimization)<br>
 &emsp;&emsp;- zorunlu kopyalama eliminasyonu _(mandatory copy elision)_<br>
 
-## Operatör Yüklemesi _(Operator Overloading)_
+## 📌Operatör Yüklemesi _(Operator Overloading)_
 - operatör yüklemesine ilişkin genel kurallar<br>
 - üye operatör fonksiyonları _(member operator functions)_<br>
 - global operatör fonksiyonları _(global operator functions)_<br>
@@ -160,7 +163,7 @@
 - tür dönüştürme operatör fonksiyonları _(type-cast operator functions)_<br>
 - programcının tanımladığı sabitler _(user-defined literals)_<br>
 
-## Dinamik Ömürlü Nesneler _(Dynamic Objects)_
+## 📌Dinamik Ömürlü Nesneler _(Dynamic Objects)_
 - new ve delete ifadeleri _(new & delete expressions)_ <br>
 - new[] ve delete [] ifadeleri<br>
 - operator new işlevleri<br>
@@ -171,11 +174,11 @@
 - placement new operatörleri<br>
 - nothrow new<br>
 
-## Tür Eş İsimleri _(Type Alias)_
+## 📌Tür Eş İsimleri _(Type Alias)_
 - typedef bildirimleri <br>
 - using bildirimleri <br>
 
-## İsim Alanları _(Namespaces)_
+## 📌İsim Alanları _(Namespaces)_
 - isim alanlarının oluşturulması <br>
 - isim alanları ve isim arama _(namespaces & name lookup)_ <br>
 - çözünürlük operatörü ve isim alanları _(scope resoşution operator & namespaces)_ <br>
@@ -188,7 +191,7 @@
 - isim alanı eş ismi _(namespace alias)_<br>
 - işlev yüklemesi ve isim alanları _(function overloading & namespaces)_ <br>
 
-## Sınıflar ve Kalıtım _(Classes & Inheritance)_
+## 📌Sınıflar ve Kalıtım _(Classes & Inheritance)_
 - nesne yönelimli programlama ve kalıtım _(OOP & inheritance)_ <br>
 - public kalıtımı _(public inheritance)_<br>
 - çalışma zamanı çok biçimliliği _(runtime polymorphism)_<br>
@@ -219,7 +222,7 @@
 - kalıtımla alınan kurucu işlevler _(inherited constructors)_<br>
 - mixin sınıflar _(mixin classes)_<br>
 
-## Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
+## 📌Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
 - exception güvenliği _(exception safety)_<br>
 - hata nesnelerinin gönderilmesi _(throwing exception objects)_<br>
 &emsp;&emsp;- throw deyimi _(throw statement)_<br>
@@ -263,13 +266,13 @@
 - std::exception_ptr<br>
 - std::rethrow_exception<br>
 
-## Çalışma Zamanında Tür Belirlenmesi _(RTTI)_
+## 📌Çalışma Zamanında Tür Belirlenmesi _(RTTI)_
 - dynamic_cast operatörü<br>
 - typeid operatörü<br>
 - std::typeinfo sınıfı<br>
 - std::bad_typeid<br>
 
-## std::string sınıfı
+## 📌std::string sınıfı
 - genel kavramlar <br>
 - string::size_type<br>
 - string::npos<br>
@@ -281,18 +284,18 @@
 - küçük string optimizasyonu _(small string optimization)_<br>
 - bir STL kabı olaral string sınıfı _(string class as STL container)_ <br>
 
-## Bileşik Nesneler _(Composition)_
+## 📌Bileşik Nesneler _(Composition)_
 - öğe olan nesneler ve özel işlevler, kopyalama kontrolü.<br>
 - öğe olan nesneler ve erişim kontrolü<br>
 - bileşik nesnelerin kullanıldığı temalar<br>
 
-## İçsel türler _(Type Members)_
+## 📌İçsel türler _(Type Members)_
 - sınıf içinde yapılan eş isim bildirimleri<br>
 - içsel sınıflar _(nested classes)_<br>
 &emsp;&emsp;- erişim kontrolü _(access control)_<br>
 &emsp;&emsp;- _pimpl_ idiyomu _(pimpl idiom)_
 
-## Şablonlar _(Templates)_
+## 📌Şablonlar _(Templates)_
 - şablon tür parametreleri _(template type parameters)_ <br>
 - şablon sabit parametreleri _(template non-type parameters)_<br>
 - şablon şablon parametreleri _(template template parameters)_<br>
@@ -317,7 +320,7 @@
 - değişken şablonları _(variable templates)_<br>
 - eş isim şablonları _(alias templates)_<br>
 
-## İteratörler _(Iterators)_
+## 📌İteratörler _(Iterators)_
 - aralık kavramı _(ranges)_<br>
 - iteratörlerin kategorileri _(iterator categories)_<br>
 &emsp;&emsp;- input iterator<br>
@@ -347,7 +350,7 @@
 &emsp;&emsp;&emsp;&emsp;- insert_iterator<br>
 - iterator traits
 
-## Kaplar _(Containers)_
+## 📌Kaplar _(Containers)_
 - STL kapları ve veri yapıları _(STL containers & data structures) _ <br>
 - sıralı kaplar _(sequence containers)_<br>
 &emsp;&emsp;- std::vector<br>
@@ -369,12 +372,12 @@
 - kapların tür öğeleri _(type members of containers)_<br>
 - kapların emplace işlevleri<br>
 
-## Kap Uyumlandırıcıları _(Container Adaptors)_
+## 📌Kap Uyumlandırıcıları _(Container Adaptors)_
 - std::stack<br>
 - std::queue<br>
 - std::priority_queue<br>
 
-## Algoritmalar _(Algorithms)_
+## 📌Algoritmalar _(Algorithms)_
 - algoritmaların temel özellikleri ve genel ilkeler <br>
 - salt okuyan algoritmalar _non-modifying algorithms)_<br>
 - kap öğelerini değiştiren algoritmalar _(modifying algorithms)_<br>
@@ -384,7 +387,7 @@
 - nümerik algoritmalar _(numeric algorithms)_<br>
 - algoritmaların lambda ifadelerini kullanması<br>
 
-## Lambda İfadeleri _(Lambda Expressions)_
+## 📌Lambda İfadeleri _(Lambda Expressions)_
 - kapanış türleri ve kapanış nesneleri _(closure types and closure objects)_<br>
 - lambda ifadeleri ve tür çıkarımı _(lambda expressions and type deduction)_<br>
 - lambda yakalama ifadeleri _(lambda captures)_<br>
@@ -398,7 +401,7 @@
 - lambda ifadeleri C++11/14/17/20<br>
 - lambda idiyomları _(lambda idioms)_<br>
 
-## Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
+## 📌Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
 - std::unique_ptr sınıfı <br>
 &emsp;&emsp;- std::make_unique işlev şablonu <br> 
 &emsp;&emsp;- std::default_delete ve custom deleters <br>
@@ -408,7 +411,7 @@
 &emsp;&emsp;- std::make_shared işlev şablonu<br>
 &emsp;&emsp;- std::weak_ptr sınıfı<br>
 
-## Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
+## 📌Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
 - giriş çıkış akımlarına ilişkin standart sınıflar _(standard stream classes)_ <br>
 - global akım nesneleri _(global stream objects)_<br>
 - formatlı giriş çıkış işlemleri _(formatted input output)_<br>
@@ -421,7 +424,7 @@
 - formatsız giriş ve çıkış işlemleri _(unformatted input output)_<br>
 - bellek üstünde yapılan giriş çıkış işlemleri _(in-memory input output operations)_<br>
 
-## Bazı önemli STL Öğelerinin Tanıtımı
+## 📌Bazı önemli STL Öğelerinin Tanıtımı
 - std::pair<br>
 - std::tuple<br>
 - std::initializer_list<br>
@@ -441,7 +444,7 @@
 - std::apply<br>
 
 
-## Tamamlayıcı Araçlar ve Sentaks Öğeleri
+## 📌Tamamlayıcı Araçlar ve Sentaks Öğeleri
 - aralık tabanlı for döngüleri _(range based for loops)_<br>
 - ilk değer vermeli if ve switch deyimleri _(if/switch with initializers)_<br>
 - static_assert <br>
@@ -458,7 +461,7 @@
 - yapısal bağlama (C++17)_(structural binding) _<br>
 - attribute’lar _(attributes)_<br>
 
-## Concurrency
+## 📌Concurrency
 - memory model <br>
 - thread’ler ve thread yönetimi<br>
 - std::this_thread isim alanı<br>
