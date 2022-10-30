@@ -1,478 +1,477 @@
 # 📚C++ Programlama Dili Egitimi İçeriği (Düzenlenmektedir)
-### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. <br>
+### İçerik, Ders işleme sırası ile birebir değildir. Konu akışı farklılık gösterebilir. 
 
 	Ortalama 2 dersten sonra Oyun Quizleri yapılacaktır.
 
 ## 📌C++ Dilinin Genel Tanıtımı
-➡️ C++ dilinin tarihçesi<br>
-➡️ C++ dili ve programlama paradigmaları<br>
-➡️ C++ dili standartları<br>
-➡️ eski C++ ve modern C++ farklılıkları gösterilecektir<br>
-➡️ C++98 – 03 incelenecektir<br>
-➡️ C++11 incelenecektir<br>
-➡️ C++14 incelenecektir<br>
-➡️ C++17 incelenecektir<br>
-➡️ C++20 incelenecektir<br>
+	➡️ C++ dilinin tarihçesi
+	➡️ C++ dili ve programlama paradigmaları
+	➡️ C++ dili standartları
+	➡️ eski C++ ve modern C++ farklılıkları gösterilecektir
+	➡️ C++98 – 03 incelenecektir
+	➡️ C++11 incelenecektir
+	➡️ C++14 incelenecektir
+	➡️ C++17 incelenecektir
+	➡️ C++20 incelenecektir
 
-
-## 📌C Dili ve C++ İçindeki C Dili _(C in C++)_
-➡️ C dilinden C++ diline geçiş ve farklılıkları<br>
-➡️ işlev bildirimleri ve tanımlamalarına ilişkin farklılıklar<br>
-➡️ türlere ve tür dönüşümlerine ilişkin farklılıklar<br>
-➡️ C’de geçerli C++’da geçersiz durumlar<br>
-➡️ C99 ve C++<br>
+## 📌C Dili ve C++ İçindeki C Dili (C in C++)
+	➡️ C dilinden C++ diline geçiş ve farklılıkları
+	➡️ işlev bildirimleri ve tanımlamalarına ilişkin farklılıklar
+	➡️ türlere ve tür dönüşümlerine ilişkin farklılıklar
+	➡️ C’de geçerli C++’da geçersiz durumlar
+	➡️ C99 ve C++
 
 ## 📌Temel Kavramlar _(Basic Concepts)_
-➡️ tamamlanmış ve eksik türler __(complete & incomplete types)__<br>
-➡️ tek tanımlama kuralı __(one definition rule)__<br>
-➡️ ifadelerin değer kategorileri __(value categories)__<br>
-➡️ tanımsız davranış __(undefined behavior)__ <br>
-➡️ derleyiciye bağlı davranışlar. __(implementation defined & implementaion specified)__<br>
-➡️ derleyici eklentileri __(compiler extensions)__ <br>
-➡️ kapsam __(scope)__ ve isim arama __(name lookup)__ <br>
-➡️ erişim kontrolü __(access control)__ <br>
-➡️ çift anlamlılık hatası __(ambiguity)__ <br>
+	➡️ tamamlanmış ve eksik türler (complete & incomplete types)
+	➡️ tek tanımlama kuralı (one definition rule)
+	➡️ ifadelerin değer kategorileri (value categories)
+	➡️ tanımsız davranış (undefined behavior) 
+	➡️ derleyiciye bağlı davranışlar. (implementation defined & implementaion specified)
+	➡️ derleyici eklentileri (compiler extensions) 
+	➡️ kapsam (scope) ve isim arama (name lookup) 
+	➡️ erişim kontrolü (access control) 
+	➡️ çift anlamlılık hatası (ambiguity) 
 
 ## 📌İlk Değer Verme _(Initialization)_
-➡️ eş biçimli ilk değer verme __(uniform initialization)__<br>
-➡️ daraltıcı dönüşümler __(narrowing conversions)__ <br>
-➡️ most vexing parse <br>
-➡️ doğrudan ilk değer verme __(direct intialization)__ <br>
-➡️ değerle başlatma __value initialization__<br>
-➡️ kopyalama ile ilk değer verme __(copy initialization)__ <br>
-➡️ varsayılan ilk değer verme __(default initialization)__ <br>
-➡️ bileşiklere ilk değer verme __(aggregate initialization)__ <br>
+	➡️ eş biçimli ilk değer verme (uniform initialization)
+	➡️ daraltıcı dönüşümler (narrowing conversions) 
+	➡️ most vexing parse 
+	➡️ doğrudan ilk değer verme (direct intialization) 
+	➡️ değerle başlatma value initialization
+	➡️ kopyalama ile ilk değer verme (copy initialization) 
+	➡️ varsayılan ilk değer verme (default initialization) 
+	➡️ bileşiklere ilk değer verme (aggregate initialization) 
 
 ## 📌Tür Çıkarımı _(Type Deduction)_
-➡️ auto belirteci ile tür çıkarımı __(auto type deduction)__ <br>
-➡️ decltype belirteci ile tür çıkarımı __(decltype type deduction)__ <br>
-➡️ sonradan gelen geri dönüş türü __(trailing  return type)__ <br>
-➡️ auto geri dönüş değeri türü __(auto return type)__ <br>
-➡️ decltype auto tür çıkarımı __(decltype auto)__ <br>
+	➡️ auto belirteci ile tür çıkarımı (auto type deduction) 
+	➡️ decltype belirteci ile tür çıkarımı (decltype type deduction) 
+	➡️ sonradan gelen geri dönüş türü (trailing  return type) 
+	➡️ auto geri dönüş değeri türü (auto return type) 
+	➡️ decltype auto tür çıkarımı (decltype auto) 
 
 ## 📌Kapsamlandırılmış enum türleri _(scoped enums)_
-➡️ geleneksel enum türleri __(conventional enum types)__ <br>
-➡️ baz tür seçimi __(underlying type)__ <br>
-➡️ tür dönüşümleri __(type conversions)__ <br>
-➡️ enum türleri kapsam __(enum classes & scope)__ <br>
-➡️ using enum declarations (C++20) <br>
+	➡️ geleneksel enum türleri (conventional enum types) 
+	➡️ baz tür seçimi (underlying type) 
+	➡️ tür dönüşümleri (type conversions) 
+	➡️ enum türleri kapsam (enum classes & scope) 
+	➡️ using enum declarations (C++20) 
 
 ## 📌Sabit İfadeleri _(Constant Expressions)_
-➡️ const anahtar sözcüğü ve const semantiği __(const keyword & const semantics)__<br>
-➡️ const nesneler __(const objects)__<br>
-➡️ constexpr anahtar sözcüğü __(constexpr keyword)__<br>
-➡️ constexpr işlevler __(constexpr functions)__<br>
-➡️ consteval işlevler - C++20 __(consteval functions - C++20)__<br>
-➡️ constinit anahtar sözcüğü - C++20
+	➡️ const anahtar sözcüğü ve const semantiği (const keyword & const semantics)
+	➡️ const nesneler (const objects)
+	➡️ constexpr anahtar sözcüğü (constexpr keyword)
+	➡️ constexpr işlevler (constexpr functions)
+	➡️ consteval işlevler - C++20 (consteval functions - C++20)
+	➡️ constinit anahtar sözcüğü - C++20
 
 ## 📌İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
 
 ## 📌Referans Semantiği (Reference Semantics)
-➡️ sol taraf referansları __(L value references)__<br>
-➡️ sağ taraf referansları __(R value references)__<br>
-➡️ referanslar ve const semantiği __(references & const semantics)__<br>
-➡️ referanslar ile göstericilerin __(pointer)__ karşılaştırılması<br>
-➡️ parametresi referans olan işlevler<br>
-➡️ referans döndüren işlevler<br>
-➡️ referanslar ve __life extension__ <br>
+	➡️ sol taraf referansları (L value references)
+	➡️ sağ taraf referansları (R value references)
+	➡️ referanslar ve const semantiği (references & const semantics)
+	➡️ referanslar ile göstericilerin (pointer) karşılaştırılması
+	➡️ parametresi referans olan işlevler
+	➡️ referans döndüren işlevler
+	➡️ referanslar ve life extension 
 
 ## 📌İşlev Yüklemesi _(Function Overloading)_
-➡️ genel kurallar <br>
-➡️ yüklenmiş işlev çözümlenmesi __(function overload resolution)__<br>
-➡️ const yüklemesi __(const overloading)__<br>
-➡️ extern "C" bildirimi __(extern C declarations)__<br>
-➡️ işlev yüklemesinde dikkat edilmesi gereken durumlar<br>
+	➡️ genel kurallar 
+	➡️ yüklenmiş işlev çözümlenmesi (function overload resolution)
+	➡️ const yüklemesi (const overloading)
+	➡️ extern "C" bildirimi (extern C declarations)
+	➡️ işlev yüklemesinde dikkat edilmesi gereken durumlar
 
 ## 📌Tür Dönüştürme Operatörleri _(Type-cast Operators)_
-➡️ static_cast<> operatörü<br>
-➡️ const_cast<> operatörü<br>
-➡️ reinterpret_cast<> operatörü<br>
-➡️ dynamic_cast<> operatörü <br>
+	➡️ static_cast<> operatörü
+	➡️ const_cast<> operatörü
+	➡️ reinterpret_cast<> operatörü
+	➡️ dynamic_cast<> operatörü 
 
 ## 📌inline işlevler ve inline değişkenler
-➡️ inline işlevler __(inline functions)__ <br>
-➡️ inline değişkenler (C++17) __(inline variables)__ <br>
+	➡️ inline işlevler (inline functions) 
+	➡️ inline değişkenler (C++17) (inline variables) 
 
 ## 📌Sınıflara giriş _(Introduction to Classes)_
-➡️ sınıf kapsamı __(class scope)__ <br>
-➡️ sınıflar ve isim arama __(name lookup)__<br>
-➡️ erişim kontrolü __(access control)__ ve veri gizleme __(data hiding)__<br>
-&emsp;&emsp;- public öğeler __(public members)__<br>
-&emsp;&emsp;- private öğeler __(private members)__<br>
-&emsp;&emsp;- protected öğeler __(protected members)__<br>
-➡️ sınıfların öğeleri __(class members)__<br>
-&emsp;&emsp;- sınıfların veri öğeleri __(data members)__<br>
-&emsp;&emsp;&emsp;&emsp;-  non-static veri öğeleri<br>
-&emsp;&emsp;&emsp;&emsp;-  mutable veri öğeleri<br>
-&emsp;&emsp;&emsp;&emsp;-  static veri öğeleri<br>
-&emsp;&emsp;- sınıfların üye işlevleri<br>
-&emsp;&emsp;&emsp;&emsp;- non-static üye işlevler<br>
-&emsp;&emsp;&emsp;&emsp;- const üye işlevler<br>
-&emsp;&emsp;&emsp;&emsp;- static üye işlevler<br>
-&emsp;&emsp;- this göstericisi ve \*this<br>
-&emsp;&emsp;- sınıfların tür öğeleri __(type members)__<br>
-➡️ sınıfların kurucu işlevleri __(constructors)__<br>
-&emsp;&emsp;- kurucu işlev ilk değer verme listesi __(constructor initializer list)__<br>
-&emsp;&emsp;- delege eden kurucu işlevler __(delegating constructors)__<br>
-&emsp;&emsp;- explicit kurucu işlevler __(explicit constructors)__<br>
-➡️ sınıfların sonlandırıcı işlevleri __(destructors)__<br>
-➡️ üye işlevlerin çağrılması<br>
-➡️ sınıflar ve const doğruluğu __(classes & const correctness)__<br>
-&emsp;&emsp;- const sınıf nesneleri __(const objects)__<br>
-&emsp;&emsp;- const üye fonksiyonlar __(const member fuctions)__<br>
-➡️ geçici sınıf nesneleri __(temporary objects)__<br>
-➡️ otomatik tür dönüşümleri __(implicit type conversions)__ <br>
-➡️ mutable anahtar sözcüğü<br>
-➡️ friend bildirimi __(friend declarations)__ <br>
-&emsp;&emsp;- friend bildirimi ve veri gizleme<br>
-&emsp;&emsp;- global işlevlere friend bildirimi<br>
-&emsp;&emsp;- sınıfların üye işlevlerine friend bildirimi<br>
-&emsp;&emsp;- sınıflara friend bildirimi<br>
-&emsp;&emsp;- attorney client idiyomu<br>
+	➡️ sınıf kapsamı (class scope) 
+	➡️ sınıflar ve isim arama (name lookup)
+	➡️ erişim kontrolü (access control) ve veri gizleme (data hiding)
+	   - public öğeler (public members)
+	   - private öğeler (private members)
+	   - protected öğeler (protected members)
+	➡️ sınıfların öğeleri (class members)
+	   - sınıfların veri öğeleri (data members)
+	      -  non-static veri öğeleri
+	      -  mutable veri öğeleri
+	      -  static veri öğeleri
+	   - sınıfların üye işlevleri
+	      - non-static üye işlevler
+	      - const üye işlevler
+	      - static üye işlevler
+	   - this göstericisi ve \*this
+	   - sınıfların tür öğeleri (type members)
+	➡️ sınıfların kurucu işlevleri (constructors)
+	   - kurucu işlev ilk değer verme listesi (constructor initializer list)
+	   - delege eden kurucu işlevler (delegating constructors)
+	   - explicit kurucu işlevler (explicit constructors)
+	➡️ sınıfların sonlandırıcı işlevleri (destructors)
+	➡️ üye işlevlerin çağrılması
+	➡️ sınıflar ve const doğruluğu (classes & const correctness)
+	   - const sınıf nesneleri (const objects)
+	   - const üye fonksiyonlar (const member fuctions)
+	➡️ geçici sınıf nesneleri (temporary objects)
+	➡️ otomatik tür dönüşümleri (implicit type conversions) 
+	➡️ mutable anahtar sözcüğü
+	➡️ friend bildirimi (friend declarations) 
+	   - friend bildirimi ve veri gizleme
+	   - global işlevlere friend bildirimi
+	   - sınıfların üye işlevlerine friend bildirimi
+	   - sınıflara friend bildirimi
+	   - attorney client idiyomu
 
-## Sınıfların Özel Üye İşlevleri ve Kopyalama İşlemleri __(Special Member Functions & Copy Control)__
-➡️ sınıfların özel işlevleri __(special member functions)__<br>
-&emsp;&emsp;- default constructor __(varsayılan kurucu işlev)__<br>
-&emsp;&emsp;- destructor __(sonlandırıcı işlev)__<br>
-&emsp;&emsp;- copy constructor __(kopyalayan kurucu işlev)__<br>
-&emsp;&emsp;- move constructor __(taşıyan kurucu işlev)__<br>
-&emsp;&emsp;- copy assignment __(kopyalayan atama işlevi)__<br>
-&emsp;&emsp;- move assignment __(taşıyan atama işlevi)__<br>
-➡️ özel işlevlerin default edilmesi<br>
-➡️ özel işlevlerin delete edilmesi<br>
-➡️ sınıflar ve taşıma semantiği __(move semantics)__<br>
-➡️ _rule of zero_<br>
-➡️ _rule of five_<br>
-➡️ kopyala takas et idiyomu __(copy & swap idiom)__<br>
-➡️ kopyalamanın eliminasyonu __(copy elision)__<br>
-&emsp;&emsp;- geçici nesneler yoluyla kopyalama eliminasyonu __(copy elision by temporaries)__<br>
-&emsp;&emsp;- RVO __(return value optimization)__<br>
-&emsp;&emsp;- NRVO __(names return value optimization)__<br>
-&emsp;&emsp;- zorunlu kopyalama eliminasyonu __(mandatory copy elision)__<br>
+## Sınıfların Özel Üye İşlevleri ve Kopyalama İşlemleri (Special Member Functions & Copy Control)
+	➡️ sınıfların özel işlevleri (special member functions)
+	   - default constructor (varsayılan kurucu işlev)
+	   - destructor (sonlandırıcı işlev)
+	   - copy constructor (kopyalayan kurucu işlev)
+	   - move constructor (taşıyan kurucu işlev)
+	   - copy assignment (kopyalayan atama işlevi)
+	   - move assignment (taşıyan atama işlevi)
+	➡️ özel işlevlerin default edilmesi
+	➡️ özel işlevlerin delete edilmesi
+	➡️ sınıflar ve taşıma semantiği (move semantics)
+	➡️ _rule of zero_
+	➡️ _rule of five_
+	➡️ kopyala takas et idiyomu (copy & swap idiom)
+	➡️ kopyalamanın eliminasyonu (copy elision)
+	   - geçici nesneler yoluyla kopyalama eliminasyonu (copy elision by temporaries)
+	   - RVO (return value optimization)
+	   - NRVO (names return value optimization)
+	   - zorunlu kopyalama eliminasyonu (mandatory copy elision)
 
 ## 📌Operatör Yüklemesi _(Operator Overloading)_
-➡️ operatör yüklemesine ilişkin genel kurallar<br>
-➡️ üye operatör fonksiyonları __(member operator functions)__<br>
-➡️ global operatör fonksiyonları __(global operator functions)__<br>
-➡️ aritmetik operatörlerin yüklenmesi<br>
-➡️ karşılaştırma operatörlerinin yüklenmesi<br>
-➡️ 3 yollu karşılaştırma operatörü __(3-way comparision operator)__ C++20<br>
-➡️ "++" ve "--" operatörlerinin yüklenmesi<br>
-➡️ ok operatörü ve içerik operatörlerinin yüklenmesi __(overloading of arrow and dereferencing operators)__<br>
-➡️ [] operatörünün yüklenmesi __(overloading of subscript operator)__<br>
-➡️ fonksiyon çağrı operatörünün yüklenmesi  __(overloading of function call operator)__<br>
-➡️ tür dönüştürme operatör fonksiyonları __(type-cast operator functions)__<br>
-➡️ programcının tanımladığı sabitler __(user-defined literals)__<br>
+	➡️ operatör yüklemesine ilişkin genel kurallar
+	➡️ üye operatör fonksiyonları (member operator functions)
+	➡️ global operatör fonksiyonları (global operator functions)
+	➡️ aritmetik operatörlerin yüklenmesi
+	➡️ karşılaştırma operatörlerinin yüklenmesi
+	➡️ 3 yollu karşılaştırma operatörü (3-way comparision operator) C++20
+	➡️ "++" ve "--" operatörlerinin yüklenmesi
+	➡️ ok operatörü ve içerik operatörlerinin yüklenmesi (overloading of arrow and dereferencing operators)
+	➡️ [] operatörünün yüklenmesi (overloading of subscript operator)
+	➡️ fonksiyon çağrı operatörünün yüklenmesi  (overloading of function call operator)
+	➡️ tür dönüştürme operatör fonksiyonları (type-cast operator functions)
+	➡️ programcının tanımladığı sabitler (user-defined literals)
 
 ## 📌Dinamik Ömürlü Nesneler _(Dynamic Objects)_
-➡️ new ve delete ifadeleri __(new & delete expressions)__ <br>
-➡️ new[] ve delete [] ifadeleri<br>
-➡️ operator new işlevleri<br>
-➡️ operator delete işlevleri<br>
-➡️ operator new ve operator delete işlevlerinin yüklenmesi<br>
-➡️ std::bad_alloc<br>
-➡️ std::set_new_handler ve std::get_new_handler işlevleri<br>
-➡️ placement new operatörleri<br>
-➡️ nothrow new<br>
+	➡️ new ve delete ifadeleri (new & delete expressions) 
+	➡️ new[] ve delete [] ifadeleri
+	➡️ operator new işlevleri
+	➡️ operator delete işlevleri
+	➡️ operator new ve operator delete işlevlerinin yüklenmesi
+	➡️ std::bad_alloc
+	➡️ std::set_new_handler ve std::get_new_handler işlevleri
+	➡️ placement new operatörleri
+	➡️ nothrow new
 
 ## 📌Tür Eş İsimleri _(Type Alias)_
-➡️ typedef bildirimleri <br>
-➡️ using bildirimleri <br>
+	➡️ typedef bildirimleri 
+	➡️ using bildirimleri 
 
 ## 📌İsim Alanları _(Namespaces)_
-➡️ isim alanlarının oluşturulması <br>
-➡️ isim alanları ve isim arama __(namespaces & name lookup)__ <br>
-➡️ çözünürlük operatörü ve isim alanları __(scope resoşution operator & namespaces)__ <br>
-➡️ using bildirimi __(using declaration)__<br>
-➡️ using namespace direktifi __(using namespace directive)__ <br>
-➡️ argümana bağlı isim arama __(argument dependent lookup)__<br>
-➡️ isimsiz isim alanı __(unnamed namespace)__<br>
-➡️ içsel isim alanları __(nested namespaces)__<br>
-➡️ inline isim alanları __(inline namespaces)__<br>
-➡️ isim alanı eş ismi __(namespace alias)__<br>
-➡️ işlev yüklemesi ve isim alanları __(function overloading & namespaces)__ <br>
+	➡️ isim alanlarının oluşturulması 
+	➡️ isim alanları ve isim arama (namespaces & name lookup) 
+	➡️ çözünürlük operatörü ve isim alanları (scope resoşution operator & namespaces) 
+	➡️ using bildirimi (using declaration)
+	➡️ using namespace direktifi (using namespace directive) 
+	➡️ argümana bağlı isim arama (argument dependent lookup)
+	➡️ isimsiz isim alanı (unnamed namespace)
+	➡️ içsel isim alanları (nested namespaces)
+	➡️ inline isim alanları (inline namespaces)
+	➡️ isim alanı eş ismi (namespace alias)
+	➡️ işlev yüklemesi ve isim alanları (function overloading & namespaces) 
 
 ## 📌Sınıflar ve Kalıtım _(Classes & Inheritance)_
-➡️ nesne yönelimli programlama ve kalıtım __(OOP & inheritance)__ <br>
-➡️ public kalıtımı __(public inheritance)__<br>
-➡️ çalışma zamanı çok biçimliliği __(runtime polymorphism)__<br>
-&emsp;&emsp;- dinamik ve statik tür bilgisi __(static & dynamic type)__<br>
-&emsp;&emsp;- sanal işlevler __(virtual function)__<br>
-&emsp;&emsp;- saf sanal işlevler __(pure virtual function)__<br>
-&emsp;&emsp;- sanal sonlandırıcı işlev __(virtual destructor)__<br>
-&emsp;&emsp;- sanal kurucu işlev idiyomu __(virtual constructor idiom)__<br>
-&emsp;&emsp;- override bağlamsal anahtar sözcüğü<br>
-&emsp;&emsp;- sanal gönderim mekanizmasının implementasyonu __(implementation of virtual dispatch mechanism)__<br>
-&emsp;&emsp;- nesne dilimlenmesi __(object slicing)__<br>
-&emsp;&emsp;- sanal olmayan arayüz idiyomu __(non-virtual interface idiom)__<br>
-➡️ final bağlamsal anahtar sözcüğü __(final contextual keyword)__ <br>
-&emsp;&emsp;- final sınıflar __(final classes)__<br>
-&emsp;&emsp;- __final override__<br>
-➡️ çoklu kalıtım _multiple inheritance)_<br>
-&emsp;&emsp;- çoklu kalıtımda kapsam ve isim arama __(multiple inheritance & name lookup)__ <br>
-&emsp;&emsp;- çoklu kalıtımda sınıfın özel işlevleri<br>
-&emsp;&emsp;- elmas formasyonu __(diamond formation)__<br>
-&emsp;&emsp;- sanal kalıtım __(virtual inheritance)__<br>
-&emsp;&emsp;- çoklu kalıtım ve kalıtımla alınan kurucu işlevler<br>
-&emsp;&emsp;- çoklu kalıtımda kopyalama ve taşıma işlemleri<br>
-➡️ private kalıtımı __(private inheritance)__<br>
-&emsp;&emsp;- implementaion inheritance<br>
-&emsp;&emsp;- empty base optimization<br>
-➡️ protected kalıtımı __(protected inheritance)__<br>
-➡️ sınıf içi using bildirimi <br>
-➡️ kalıtımla alınan kurucu işlevler __(inherited constructors)__<br>
-➡️ mixin sınıflar __(mixin classes)__<br>
+	➡️ nesne yönelimli programlama ve kalıtım (OOP & inheritance) 
+	➡️ public kalıtımı (public inheritance)
+	➡️ çalışma zamanı çok biçimliliği (runtime polymorphism)
+	   - dinamik ve statik tür bilgisi (static & dynamic type)
+	   - sanal işlevler (virtual function)
+	   - saf sanal işlevler (pure virtual function)
+	   - sanal sonlandırıcı işlev (virtual destructor)
+	   - sanal kurucu işlev idiyomu (virtual constructor idiom)
+	   - override bağlamsal anahtar sözcüğü
+	   - sanal gönderim mekanizmasının implementasyonu (implementation of virtual dispatch mechanism)
+	   - nesne dilimlenmesi (object slicing)
+	   - sanal olmayan arayüz idiyomu (non-virtual interface idiom)
+	➡️ final bağlamsal anahtar sözcüğü (final contextual keyword) 
+	   - final sınıflar (final classes)
+	   - final override
+	➡️ çoklu kalıtım _multiple inheritance)_
+	   - çoklu kalıtımda kapsam ve isim arama (multiple inheritance & name lookup) 
+	   - çoklu kalıtımda sınıfın özel işlevleri
+	   - elmas formasyonu (diamond formation)
+	   - sanal kalıtım (virtual inheritance)
+	   - çoklu kalıtım ve kalıtımla alınan kurucu işlevler
+	   - çoklu kalıtımda kopyalama ve taşıma işlemleri
+	➡️ private kalıtımı (private inheritance)
+	   - implementaion inheritance
+	   - empty base optimization
+	➡️ protected kalıtımı (protected inheritance)
+	➡️ sınıf içi using bildirimi 
+	➡️ kalıtımla alınan kurucu işlevler (inherited constructors)
+	➡️ mixin sınıflar (mixin classes)
 
 ## 📌Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
-➡️ exception güvenliği __(exception safety)__<br>
-➡️ hata nesnelerinin gönderilmesi __(throwing exception objects)__<br>
-&emsp;&emsp;- throw deyimi __(throw statement)__<br>
-&emsp;&emsp;- rethrow deyimi __(rethrow statement)__<br>
-➡️ try blokları<br>
-➡️ catch blokları<br>
-&emsp;&emsp;- catch all <br>
-➡️ yakalanamayan hata nesnesi __(uncaught exception)__<br>
-➡️ std::terminate ve std::set_terminate işlevleri<br>
-➡️ hata nesnesinin yeniden gönderilmesi __(rethrow statement)__<br>
-➡️ yığının geri sarımı __(stack unwinding)__<br>
-➡️ kurucu işlevlerden exception gönderimi<br>
-➡️ sonlandırıcı işlevler ve hata gönderimi<br>
-➡️ exception handling ve kalıtım __(eception handling & inheritance)__<br>
-➡️ exception handling ve dinamik ömürlü sınıf nesneleri __(eception handling & dynamic objects)__<br>
-➡️ exception  güvenliği için akıllı göstericilerin kullanımı __(eception handling & smart pointers)__<br>
-➡️ işlev try blokları __(function try block)__<br>
-➡️ noexcept belirleyicisi __(noexcept specifier)__<br>
-➡️ beklenmeyen hata nesnesi __(unexpected excetion)__<br>
-➡️ std::unexpected_exception<br>
-➡️ std::exception sınıfı ve hiyerarşisi<br>
-&emsp;&emsp;- std::exception sınıfı ve what sanal fonksiyonu<br>
-&emsp;&emsp;- std::logic_error<br>
-&emsp;&emsp;&emsp;&emsp;- std::invalid_argument, std::domain_error, std::length_error<, std::out_of_range, std::future_error sınıfları <br>
-&emsp;&emsp;- std::runtime_error<br>
-&emsp;&emsp;&emsp;&emsp;- std::range_error, std::overflow_error, std::underflow_error sınıfları <br>
-&emsp;&emsp;- std::system_error<br>
-&emsp;&emsp;- std::regex_error<br>
-&emsp;&emsp;- std::bad_alloc<br>
-&emsp;&emsp;- std::bad_typeid<br>
-&emsp;&emsp;- std::bad_cast<br>
-&emsp;&emsp;- std::bad_exception<br>
-&emsp;&emsp;- std::bad_weak_ptr<br>
-&emsp;&emsp;- std::bad_function_call<br>
-➡️ kendi hata sınıflarımızı oluşturmak __(custom exception classes)__<br>
-➡️ exception garantileri __(eception guarantees)__<br>
-&emsp;&emsp;- __basic exception guarantee__<br>
-&emsp;&emsp;- __strong exception guarantee__<br>
-&emsp;&emsp;- __no throw guarantee__<br>
-➡️ std::current_exception<br>
-➡️ std::exception_ptr<br>
-➡️ std::rethrow_exception<br>
+	➡️ exception güvenliği (exception safety)
+	➡️ hata nesnelerinin gönderilmesi (throwing exception objects)
+	   - throw deyimi (throw statement)
+	   - rethrow deyimi (rethrow statement)
+	➡️ try blokları
+	➡️ catch blokları
+	   - catch all 
+	➡️ yakalanamayan hata nesnesi (uncaught exception)
+	➡️ std::terminate ve std::set_terminate işlevleri
+	➡️ hata nesnesinin yeniden gönderilmesi (rethrow statement)
+	➡️ yığının geri sarımı (stack unwinding)
+	➡️ kurucu işlevlerden exception gönderimi
+	➡️ sonlandırıcı işlevler ve hata gönderimi
+	➡️ exception handling ve kalıtım (eception handling & inheritance)
+	➡️ exception handling ve dinamik ömürlü sınıf nesneleri (eception handling & dynamic objects)
+	➡️ exception  güvenliği için akıllı göstericilerin kullanımı (eception handling & smart pointers)
+	➡️ işlev try blokları (function try block)
+	➡️ noexcept belirleyicisi (noexcept specifier)
+	➡️ beklenmeyen hata nesnesi (unexpected excetion)
+	➡️ std::unexpected_exception
+	➡️ std::exception sınıfı ve hiyerarşisi
+	   - std::exception sınıfı ve what sanal fonksiyonu
+	   - std::logic_error
+	      - std::invalid_argument, std::domain_error, std::length_error<, std::out_of_range, std::future_error sınıfları 
+	   - std::runtime_error
+	      - std::range_error, std::overflow_error, std::underflow_error sınıfları 
+	   - std::system_error
+	   - std::regex_error
+	   - std::bad_alloc
+	   - std::bad_typeid
+	   - std::bad_cast
+	   - std::bad_exception
+	   - std::bad_weak_ptr
+	   - std::bad_function_call
+	➡️ kendi hata sınıflarımızı oluşturmak (custom exception classes)
+	➡️ exception garantileri (eception guarantees)
+	   - basic exception guarantee
+	   - strong exception guarantee
+	   - no throw guarantee
+	➡️ std::current_exception
+	➡️ std::exception_ptr
+	➡️ std::rethrow_exception
 
 ## 📌Çalışma Zamanında Tür Belirlenmesi _(RTTI)_
-➡️ dynamic_cast operatörü<br>
-➡️ typeid operatörü<br>
-➡️ std::typeinfo sınıfı<br>
-➡️ std::bad_typeid<br>
+	➡️ dynamic_cast operatörü
+	➡️ typeid operatörü
+	➡️ std::typeinfo sınıfı
+	➡️ std::bad_typeid
 
 ## 📌std::string sınıfı
-➡️ genel kavramlar <br>
-➡️ string::size_type<br>
-➡️ string::npos<br>
-➡️ arama işlevleri<br>
-➡️ set işlemleri<br>
-➡️ erişim işlemleri<br>
-➡️ karşılaştırma işlevleri __(comparision functions)__<br>
-➡️ sayısal dönüşüm işlevleri __(numeric conversions)__<br>
-➡️ küçük string optimizasyonu __(small string optimization)__<br>
-➡️ bir STL kabı olaral string sınıfı __(string class as STL container)__ <br>
+	➡️ genel kavramlar 
+	➡️ string::size_type
+	➡️ string::npos
+	➡️ arama işlevleri
+	➡️ set işlemleri
+	➡️ erişim işlemleri
+	➡️ karşılaştırma işlevleri (comparision functions)
+	➡️ sayısal dönüşüm işlevleri (numeric conversions)
+	➡️ küçük string optimizasyonu (small string optimization)
+	➡️ bir STL kabı olaral string sınıfı (string class as STL container) 
 
 ## 📌Bileşik Nesneler _(Composition)_
-➡️ öğe olan nesneler ve özel işlevler, kopyalama kontrolü.<br>
-➡️ öğe olan nesneler ve erişim kontrolü<br>
-➡️ bileşik nesnelerin kullanıldığı temalar<br>
+	➡️ öğe olan nesneler ve özel işlevler, kopyalama kontrolü.
+	➡️ öğe olan nesneler ve erişim kontrolü
+	➡️ bileşik nesnelerin kullanıldığı temalar
 
 ## 📌İçsel türler _(Type Members)_
-➡️ sınıf içinde yapılan eş isim bildirimleri<br>
-➡️ içsel sınıflar __(nested classes)__<br>
-&emsp;&emsp;- erişim kontrolü __(access control)__<br>
-&emsp;&emsp;- _pimpl_ idiyomu __(pimpl idiom)__
+	➡️ sınıf içinde yapılan eş isim bildirimleri
+	➡️ içsel sınıflar (nested classes)
+	   - erişim kontrolü (access control)
+	   - _pimpl_ idiyomu (pimpl idiom)
 
 ## 📌Şablonlar _(Templates)_
-➡️ şablon tür parametreleri __(template type parameters)__ <br>
-➡️ şablon sabit parametreleri __(template non-type parameters)__<br>
-➡️ şablon şablon parametreleri __(template template parameters)__<br>
-➡️ şablon argümanları __(template arguments)__<br>
-&emsp;&emsp;- belirtilmiş template argümanları __(explicit template arguments)__<br>
-&emsp;&emsp;- varsayılan template argümanları __(default template arguments)__<br>
-➡️ şablonlardan kod üretimi __(template instantiation)__<br>
-➡️ fonksiyon şablonları __(function templates)__<br>
-&emsp;&emsp;- fonksiyon şablonlarında tür çıkarımı __(function template argument deduction)__<br>
-&emsp;&emsp;- fonksiyon şablonlarının yüklenmesi __(function template overloading)__<br>
-➡️ sınıf şablonları __(class templates)__<br>
-➡️ kurucu işlev ile tür çıkarımı __(CTAD)__ (C++17)<br>
-➡️ üye şablonlar __(member templates)__<br>
-➡️ şablonların özelleştirilmesi __(template specialization)__<br>
-&emsp;&emsp;- tam özelleştirme __(explicit/full specialization)__<br>
-&emsp;&emsp;- kısmi özelleştirme __(partial specialization)__<br>
-➡️ __sfinae__<br>
-➡️ değişken sayıda parametreli şablonlar __(variadic templates)__<br>
-➡️ mükemmel gönderim __(perfect forwarding)__<br>
-➡️ katlama ifadeleri(C++17) __(fold expressions)__<br>
-➡️ __if constexpr__<br>
-➡️ değişken şablonları __(variable templates)__<br>
-➡️ eş isim şablonları __(alias templates)__<br>
+	➡️ şablon tür parametreleri (template type parameters) 
+	➡️ şablon sabit parametreleri (template non-type parameters)
+	➡️ şablon şablon parametreleri (template template parameters)
+	➡️ şablon argümanları (template arguments)
+	   - belirtilmiş template argümanları (explicit template arguments)
+	   - varsayılan template argümanları (default template arguments)
+	➡️ şablonlardan kod üretimi (template instantiation)
+	➡️ fonksiyon şablonları (function templates)
+	   - fonksiyon şablonlarında tür çıkarımı (function template argument deduction)
+	   - fonksiyon şablonlarının yüklenmesi (function template overloading)
+	➡️ sınıf şablonları (class templates)
+	➡️ kurucu işlev ile tür çıkarımı (CTAD) (C++17)
+	➡️ üye şablonlar (member templates)
+	➡️ şablonların özelleştirilmesi (template specialization)
+	   - tam özelleştirme (explicit/full specialization)
+	   - kısmi özelleştirme (partial specialization)
+	➡️ sfinae
+	➡️ değişken sayıda parametreli şablonlar (variadic templates)
+	➡️ mükemmel gönderim (perfect forwarding)
+	➡️ katlama ifadeleri(C++17) (fold expressions)
+	➡️ if constexpr
+	➡️ değişken şablonları (variable templates)
+	➡️ eş isim şablonları (alias templates)
 
 ## 📌İteratörler _(Iterators)_
-➡️ aralık kavramı __(ranges)__<br>
-➡️ iteratörlerin kategorileri __(iterator categories)__<br>
-&emsp;&emsp;- input iterator<br>
-&emsp;&emsp;- output iterator<br>
-&emsp;&emsp;- forward iterator<br>
-&emsp;&emsp;- bidirectional iterator<br>
-&emsp;&emsp;- random access iterator<br>
-➡️ kapların begin ve end işlevleri<br>
-➡️ global begin ve end işlevleri<br>
-➡️ iterator işlevleri<br>
-&emsp;&emsp;- std::next <br>
-&emsp;&emsp;- std::prev <br>
-&emsp;&emsp;- std::iter_swap<br>
-&emsp;&emsp;- std::advance <br>
-&emsp;&emsp;- std::distance<br>
-➡️ iterator uyumlandırıcıları __(iterator adaptors)__<br>
-&emsp;&emsp;- akım iteratörleri __(stream iterators)__<br>
-&emsp;&emsp;&emsp;&emsp;- istream_iterator<br>
-&emsp;&emsp;&emsp;&emsp;- ostream_iterator<br>
-&emsp;&emsp;&emsp;&emsp;- istreambuf_iterator<br>
-&emsp;&emsp;&emsp;&emsp;- ostreambuf_iterator<br>
-&emsp;&emsp;- reverse iterators<br>
-&emsp;&emsp;- move iterators<br>
-&emsp;&emsp;- insert iterators<br>
-&emsp;&emsp;&emsp;&emsp;- back_insert_iterator<br>
-&emsp;&emsp;&emsp;&emsp;- front_insert_iterator<br>
-&emsp;&emsp;&emsp;&emsp;- insert_iterator<br>
-➡️ iterator traits
+	➡️ aralık kavramı (ranges)
+	➡️ iteratörlerin kategorileri (iterator categories)
+	   - input iterator
+	   - output iterator
+	   - forward iterator
+	   - bidirectional iterator
+	   - random access iterator
+	➡️ kapların begin ve end işlevleri
+	➡️ global begin ve end işlevleri
+	➡️ iterator işlevleri
+	   - std::next 
+	   - std::prev 
+	   - std::iter_swap
+	   - std::advance 
+	   - std::distance
+	➡️ iterator uyumlandırıcıları (iterator adaptors)
+	   - akım iteratörleri (stream iterators)
+	      - istream_iterator
+	      - ostream_iterator
+	      - istreambuf_iterator
+	      - ostreambuf_iterator
+	   - reverse iterators
+	   - move iterators
+	   - insert iterators
+	      - back_insert_iterator
+	      - front_insert_iterator
+	      - insert_iterator
+	➡️ iterator traits
 
 ## 📌Kaplar _(Containers)_
-➡️ STL kapları ve veri yapıları __(STL containers & data structures)__ <br>
-➡️ sıralı kaplar __(sequence containers)__<br>
-&emsp;&emsp;- std::vector<br>
-&emsp;&emsp;- std::deque<br>
-&emsp;&emsp;- std::string<br>
-&emsp;&emsp;- std::array<br>
-&emsp;&emsp;- std::list<br>
-&emsp;&emsp;- std::forward_list<br>
-➡️ ilişkisel kaplar __(associative containers)__<br>
-&emsp;&emsp;- std::set<br>
-&emsp;&emsp;- std::multiset<br>
-&emsp;&emsp;- std::map<br>
-&emsp;&emsp;- std::multimap<br>
-➡️ sırasız ilişkisel kaplar __(unordered containers)__<br>
-&emsp;&emsp;- std::unordered_set<br>
-&emsp;&emsp;- std::unordered_multiset<br>
-&emsp;&emsp;- std::unordered_map<br>
-&emsp;&emsp;- std::unordered_multimap<br>
-➡️ kapların tür öğeleri __(type members of containers)__<br>
-➡️ kapların emplace işlevleri<br>
+	➡️ STL kapları ve veri yapıları (STL containers & data structures) 
+	➡️ sıralı kaplar (sequence containers)
+	   - std::vector
+	   - std::deque
+	   - std::string
+	   - std::array
+	   - std::list
+	   - std::forward_list
+	➡️ ilişkisel kaplar (associative containers)
+	   - std::set
+	   - std::multiset
+	   - std::map
+	   - std::multimap
+	➡️ sırasız ilişkisel kaplar (unordered containers)
+	   - std::unordered_set
+	   - std::unordered_multiset
+	   - std::unordered_map
+	   - std::unordered_multimap
+	➡️ kapların tür öğeleri (type members of containers)
+	➡️ kapların emplace işlevleri
 
 ## 📌Kap Uyumlandırıcıları _(Container Adaptors)_
-➡️ std::stack<br>
-➡️ std::queue<br>
-➡️ std::priority_queue<br>
+	➡️ std::stack
+	➡️ std::queue
+	➡️ std::priority_queue
 
 ## 📌Algoritmalar _(Algorithms)_
-➡️ algoritmaların temel özellikleri ve genel ilkeler <br>
-➡️ salt okuyan algoritmalar __non-modifying algorithms)__<br>
-➡️ kap öğelerini değiştiren algoritmalar __(modifying algorithms)__<br>
-➡️ kap öğelerini konumlandıran algoritmalar __(mutating algorithms)__<br>
-➡️ sıralama ile ilgili algoritmalar __(sorting algorithms)__<br>
-➡️ sıralanmış aralıklar üzerinde koşturulan algoritmalar __(sorted range algorithms)__<br>
-➡️ nümerik algoritmalar __(numeric algorithms)__<br>
-➡️ algoritmaların lambda ifadelerini kullanması<br>
+	➡️ algoritmaların temel özellikleri ve genel ilkeler 
+	➡️ salt okuyan algoritmalar non-modifying algorithms)
+	➡️ kap öğelerini değiştiren algoritmalar (modifying algorithms)
+	➡️ kap öğelerini konumlandıran algoritmalar (mutating algorithms)
+	➡️ sıralama ile ilgili algoritmalar (sorting algorithms)
+	➡️ sıralanmış aralıklar üzerinde koşturulan algoritmalar (sorted range algorithms)
+	➡️ nümerik algoritmalar (numeric algorithms)
+	➡️ algoritmaların lambda ifadelerini kullanması
 
 ## 📌Lambda İfadeleri _(Lambda Expressions)_
-➡️ kapanış türleri ve kapanış nesneleri __(closure types and closure objects)__<br>
-➡️ lambda ifadeleri ve tür çıkarımı __(lambda expressions and type deduction)__<br>
-➡️ lambda yakalama ifadeleri __(lambda captures)__<br>
-➡️ __lambda init capture__<br>
-➡️ capture this <br>
-➡️ capture __*this__<br>
-➡️ mutable lambdalar<br>
-➡️ trailing return type<br>
-➡️ genelleştirilmiş lambda ifadeleri __(generalized lambda expressions)__<br>
-➡️ algoritmalarda lambda ifadelerinin kullanımı<br>
-➡️ lambda ifadeleri C++11/14/17/20<br>
-➡️ lambda idiyomları __(lambda idioms)__<br>
+	➡️ kapanış türleri ve kapanış nesneleri (closure types and closure objects)
+	➡️ lambda ifadeleri ve tür çıkarımı (lambda expressions and type deduction)
+	➡️ lambda yakalama ifadeleri (lambda captures)
+	➡️ lambda init capture
+	➡️ capture this 
+	➡️ capture *this
+	➡️ mutable lambdalar
+	➡️ trailing return type
+	➡️ genelleştirilmiş lambda ifadeleri (generalized lambda expressions)
+	➡️ algoritmalarda lambda ifadelerinin kullanımı
+	➡️ lambda ifadeleri C++11/14/17/20
+	➡️ lambda idiyomları (lambda idioms)
 
 ## 📌Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
-➡️ std::unique_ptr sınıfı <br>
-&emsp;&emsp;- std::make_unique işlev şablonu <br> 
-&emsp;&emsp;- std::default_delete ve custom deleters <br>
-&emsp;&emsp;- tipik hatalar <br>
-➡️ std::shared_ptr sınıfı<br>
-&emsp;&emsp;- referans sayımı __(reference counting)__<br>
-&emsp;&emsp;- std::make_shared işlev şablonu<br>
-&emsp;&emsp;- std::weak_ptr sınıfı<br>
+	➡️ std::unique_ptr sınıfı 
+	   - std::make_unique işlev şablonu  
+	   - std::default_delete ve custom deleters 
+	   - tipik hatalar 
+	➡️ std::shared_ptr sınıfı
+	   - referans sayımı (reference counting)
+	   - std::make_shared işlev şablonu
+	   - std::weak_ptr sınıfı
 
 ## 📌Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
-➡️ giriş çıkış akımlarına ilişkin standart sınıflar __(standard stream classes)__ <br>
-➡️ global akım nesneleri __(global stream objects)__<br>
-➡️ formatlı giriş çıkış işlemleri __(formatted input output)__<br>
-➡️ << ve >> operatörlerinin yüklenmesi __(inserter & extractors)__<br>
-➡️ formatlama ve formatlama işlemleri __(formatting)__<br>
-➡️ manipülatörler __(manipulators)__<br>
-➡️ akımın durumu __(condition states)__<br>
-➡️ string akımları __(string streams)__<br>
-➡️ dosya işlemleri __(file operations)__<br>
-➡️ formatsız giriş ve çıkış işlemleri __(unformatted input output)__<br>
-➡️ bellek üstünde yapılan giriş çıkış işlemleri __(in-memory input output operations)__<br>
+	➡️ giriş çıkış akımlarına ilişkin standart sınıflar (standard stream classes) 
+	➡️ global akım nesneleri (global stream objects)
+	➡️ formatlı giriş çıkış işlemleri (formatted input output)
+	➡️ << ve >> operatörlerinin yüklenmesi (inserter & extractors)
+	➡️ formatlama ve formatlama işlemleri (formatting)
+	➡️ manipülatörler (manipulators)
+	➡️ akımın durumu (condition states)
+	➡️ string akımları (string streams)
+	➡️ dosya işlemleri (file operations)
+	➡️ formatsız giriş ve çıkış işlemleri (unformatted input output)
+	➡️ bellek üstünde yapılan giriş çıkış işlemleri (in-memory input output operations)
 
 ## 📌Bazı önemli STL Öğelerinin Tanıtımı
-➡️ std::pair<br>
-➡️ std::tuple<br>
-➡️ std::initializer_list<br>
-➡️ std::bitset<br>
-➡️ std::regex<br>
-➡️ type_traits kütüphanesi<br>
-➡️ std::allocator<br>
-➡️ std::ratio<br>
-➡️ std::chrono<br>
-➡️ standart random kütüphanesi<br>
-➡️ std::string_view sınıfı (C++17)<br>
-➡️ std::optional sınıfı (C++17) <br>
-➡️ std::variant sınıfı (C++17)<br>
-➡️ std::any sınıfı (C++17)<br>
-➡️ std::byte (C++17)<br>
-➡️ std::invoke<br>
-➡️ std::apply<br>
+	➡️ std::pair
+	➡️ std::tuple
+	➡️ std::initializer_list
+	➡️ std::bitset
+	➡️ std::regex
+	➡️ type_traits kütüphanesi
+	➡️ std::allocator
+	➡️ std::ratio
+	➡️ std::chrono
+	➡️ standart random kütüphanesi
+	➡️ std::string_view sınıfı (C++17)
+	➡️ std::optional sınıfı (C++17) 
+	➡️ std::variant sınıfı (C++17)
+	➡️ std::any sınıfı (C++17)
+	➡️ std::byte (C++17)
+	➡️ std::invoke
+	➡️ std::apply
 
 
 ## 📌Tamamlayıcı Araçlar ve Sentaks Öğeleri
-➡️ aralık tabanlı for döngüleri __(range based for loops)__<br>
-➡️ ilk değer vermeli if ve switch deyimleri __(if/switch with initializers)__<br>
-➡️ static_assert <br>
-➡️ decltype(auto) tür çıkarımı<br>
-➡️ std::declval<br>
-➡️ üye fonksiyon göstericileri __(member function pointers)__<br>
-➡️ ham string sabitleri __(raw string literals)__<br>
-➡️ ikilik sayı sisteminde yazılan sabitler __(binary literals)__<br>
-➡️ basamak ayırıcısı __(digit seperator)__<br>
-➡️ ilk değer vermeli if deyimi (C++17) __(if with initializer)__<br>
-➡️ ilk değer vermeli switch  deyimi (C++17) __(if with initializer)__<br>
-➡️ alignas belirteci __(alignas specifier)__<br>
-➡️ alignof operatörü __(alignof operator)__<br>
-➡️ yapısal bağlama (C++17)__(structural binding)__<br>
-➡️ attribute’lar __(attributes)__<br>
+	➡️ aralık tabanlı for döngüleri (range based for loops)
+	➡️ ilk değer vermeli if ve switch deyimleri (if/switch with initializers)
+	➡️ static_assert 
+	➡️ decltype(auto) tür çıkarımı
+	➡️ std::declval
+	➡️ üye fonksiyon göstericileri (member function pointers)
+	➡️ ham string sabitleri (raw string literals)
+	➡️ ikilik sayı sisteminde yazılan sabitler (binary literals)
+	➡️ basamak ayırıcısı (digit seperator)
+	➡️ ilk değer vermeli if deyimi (C++17) (if with initializer)
+	➡️ ilk değer vermeli switch  deyimi (C++17) (if with initializer)
+	➡️ alignas belirteci (alignas specifier)
+	➡️ alignof operatörü (alignof operator)
+	➡️ yapısal bağlama (C++17)(structural binding)
+	➡️ attribute’lar (attributes)
 
 ## 📌Concurrency
-➡️ memory model <br>
-➡️ thread’ler ve thread yönetimi<br>
-➡️ std::this_thread isim alanı<br>
-➡️ data race kavramı ve data_race’den kaçınma<br>
-➡️ standart mutex sınıfları ve mutex işlemleri<br>
-➡️ lock_guard ve unique_lock sınıfları<br>
-➡️ std::condition_variable sınıfı<br>
-➡️ std::future ve std::promise sınıfları<br>
-➡️ std::async işlevi<br>
-➡️ atomik türler __(atomic types)__<br>
-➡️ görev tabanlı __(task based)__ programlama<br>
-➡️ std::packaged_task sınıfı<br>
-➡️ paralel STL algoritmaları<br>
+	➡️ memory model 
+	➡️ thread’ler ve thread yönetimi
+	➡️ std::this_thread isim alanı
+	➡️ data race kavramı ve data_race’den kaçınma
+	➡️ standart mutex sınıfları ve mutex işlemleri
+	➡️ lock_guard ve unique_lock sınıfları
+	➡️ std::condition_variable sınıfı
+	➡️ std::future ve std::promise sınıfları
+	➡️ std::async işlevi
+	➡️ atomik türler (atomic types)
+	➡️ görev tabanlı (task based) programlama
+	➡️ std::packaged_task sınıfı
+	➡️ paralel STL algoritmaları
